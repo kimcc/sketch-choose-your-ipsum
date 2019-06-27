@@ -1,0 +1,89 @@
+{
+  "name": "Choose Your Ipsum",
+  "identifier": "choose-your-ipsum.plugin",
+  "version": "1.0.0",
+  "description": "Use different Lorem ipsum generators to fill text boxes",
+  "author": "kimcc",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Lorem Ipsum",
+      "identifier": "lorem-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control l"
+    },
+    {
+      "name": "Bacon Ipsum",
+      "identifier": "bacon-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control b"
+    },
+    {
+      "name": "Corporate Ipsum",
+      "identifier": "corporate-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control c"
+    },
+    {
+      "name": "Cucpake Ipsum",
+      "identifier": "cupcake-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control k"
+    },
+    {
+      "name": "Hipster Ipsum",
+      "identifier": "hipster-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control h"
+    },
+    {
+      "name": "Pirate Ipsum",
+      "identifier": "pirate-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control p"
+    },
+    {
+      "name": "Tuna Ipsum",
+      "identifier": "tuna-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control t"
+    },
+    {
+      "name": "Veggie Ipsum",
+      "identifier": "veggie-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control v"
+    },
+    {
+      "name": "Zombie Ipsum",
+      "identifier": "zombie-ipsum",
+      "script": "script.js",
+      "handler": "onRun",
+      "shortcut": "shift control z"
+    }
+  ],
+  "menu": {
+    "title": "Choose Your Ipsum",
+    "items": [
+      "lorem-ipsum",
+      "bacon-ipsum",
+      "corporate-ipsum",
+      "cupcake-ipsum",
+      "hipster-ipsum",
+      "pirate-ipsum",
+      "tuna-ipsum",
+      "veggie-ipsum",
+      "zombie-ipsum"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/kimcc/sketch-choose-your-ipsum/master/.appcast.xml"
+}
